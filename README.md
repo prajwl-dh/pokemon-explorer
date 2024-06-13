@@ -17,15 +17,21 @@ Follow these steps to run the application locally using Docker Compose.
 
 ### 1. Clone the Repository
 
+```bash
 git clone https://github.com/prajwl-dh/pokemon-explorer.git
+```
 
+```bash
 cd pokemon-explorer
+```
 
 ### 2. Build and Start the Services
 
 Run the following command to build and start the Docker containers for the frontend and backend:
 
+```bash
 docker-compose up --build
+```
 
 The --build flag ensures that Docker Compose builds fresh images before starting the containers.
 
@@ -43,6 +49,8 @@ To stop the application and shut down the containers, press Ctrl + C in the term
 
 Alternatively, run the following command in the project directory:
 
+```bash
 docker-compose down
+```
 
 This command stops and removes containers, networks, volumes, and images created by docker-compose up.
