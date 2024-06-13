@@ -1,6 +1,6 @@
 # My Pokemon App
 
-This project contains a frontend and a backend component for a Pokemon application, Dockerized for easy deployment.
+This project contains a frontend and a backend component for a Pokemon explorer application, Dockerized for easy deployment.
 
 ## Prerequisites
 
