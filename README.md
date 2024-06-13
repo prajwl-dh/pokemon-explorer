@@ -2,6 +2,9 @@
 
 This project contains a frontend and a backend component for a Pokemon explorer application, Dockerized for easy deployment.
 
+## Features
+Pagination, Lazy Loading, Responsive Design, GraphQL Integration, Tailwind CSS, Searching by name, and much more
+
 ## Prerequisites
 
 Before running the application, make sure you have Docker installed on your machine.
