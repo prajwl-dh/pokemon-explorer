@@ -18,7 +18,8 @@ Follow these steps to run the application locally using Docker Compose.
 ### 1. Clone the Repository
 
 git clone REPOSITORY_URL
-cd my-pokemon-app
+
+cd pokemon-explorer
 
 ### 2. Build and Start the Services
 
