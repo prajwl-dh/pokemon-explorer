@@ -17,7 +17,7 @@ Follow these steps to run the application locally using Docker Compose.
 
 ### 1. Clone the Repository
 
-git clone REPOSITORY_URL
+git clone [REPOSITORY_URL](https://github.com/prajwl-dh/pokemon-explorer.git)
 
 cd pokemon-explorer
 
