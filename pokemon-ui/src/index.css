@@ -1,0 +1,14 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+    html {
+      @apply m-0 p-0 scroll-smooth overflow-hidden overflow-y-auto;
+    }
+  
+    body {
+      @apply flex flex-col justify-between min-h-screen bg-white;
+    }
+  }
+

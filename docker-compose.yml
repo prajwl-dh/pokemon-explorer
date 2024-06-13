@@ -1,0 +1,16 @@
+services:
+  pokemon-api:
+    build:
+      context: ./pokemon-api
+      dockerfile: DockerFile
+    ports:
+      - "3000:3000"
+
+  pokemon-ui:
+    build:
+      context: ./pokemon-ui
+      dockerfile: DockerFile
+    ports:
+      - "4000:80"
+    depends_on:
+      - pokemon-api
