@@ -30,7 +30,6 @@ export class PokemonService {
         )}.png`,
       }));
     } catch (error) {
-      console.error('Error fetching pokemons:', error);
       return [];
     }
   };
@@ -56,7 +55,6 @@ export class PokemonService {
         weight: pokemon.weight,
       };
     } catch (error) {
-      console.error('Error fetching pokemon details:', error);
       return {};
     }
   };
