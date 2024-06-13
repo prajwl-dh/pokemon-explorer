@@ -1,4 +1,4 @@
-# My Pokemon App
+# Pokemon Explorer
 
 This project contains a frontend and a backend component for a Pokemon explorer application, Dockerized for easy deployment.
 
