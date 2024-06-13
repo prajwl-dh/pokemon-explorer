@@ -31,10 +31,11 @@ The --build flag ensures that Docker Compose builds fresh images before starting
 
 ### 3. Access the Application
 
-Once the containers are up and running, you can access the application at the following URLs:
+Once both containers are up and running, the frontend will automatically communicate with the backend, so you can access the frontend application at the following URL:
 
-- Backend (pokemon-api): http://localhost:3000/graphql
 - Frontend (pokemon-ui): http://localhost:4000
+  
+- Backend (pokemon-api): http://localhost:3000/graphql
 
 ### 4. Stopping the Application
 
